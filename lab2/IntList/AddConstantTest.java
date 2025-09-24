@@ -27,8 +27,7 @@ public class AddConstantTest {
     }
 
     @Test
-    public void  testAddConstantThree()
-    {
+    public void testAddConstantThree() {
         IntList lst = IntList.of();
         IntListExercises.addConstant(lst, 3);
         assertEquals(null, null);
